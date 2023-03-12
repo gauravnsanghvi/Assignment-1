@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: white; 
+    font-family: 'Lato', sans-serif;
+}
+.new{
+    display: flex;
+  }
+ .new1{
+    display: flex;
+    justify-content: end;
+  }
+  
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color:black;
+}
+
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none; 
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color:black;
+    text-decoration: none;
+}
+
+nav ul li a:hover{ 
+    font-weight: bolder;
+}
+
+
+.card{
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.cards{
+    display: flex; 
+    overflow: hidden;
+}
+
+.card-item{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.card h2{
+    font-family: 'Lato', sans-serif;
+}
+
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+.card-item .btn1 {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #C85474;
+    color: white;
+    font-size: 8px;
+    padding: 10px 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    text-align: center;
+    outline: white;
+  }
+  
+  .card-item .btn1:hover {
+    background-color: black;
+  }
+  .card-item .btn2 {
+    position: absolute;
+    top: 86%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    font-size: 8px;
+    padding: 10px 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    text-align: center;
+    outline: white;
+  }
+  
+  .card-item .btn2:hover {
+    background-color: black;
+  }
